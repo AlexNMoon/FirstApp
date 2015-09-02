@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76A0B037-9F86-49A8-82A6-2427CEF73A5D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FirstApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EEC8917ADF55CF0316DC90B5A46935BAF427FA8</key>
+		<string>https://github.com/MoonLady/FirstApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FirstApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EEC8917ADF55CF0316DC90B5A46935BAF427FA8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MoonLady/FirstApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EEC8917ADF55CF0316DC90B5A46935BAF427FA8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EEC8917ADF55CF0316DC90B5A46935BAF427FA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FirstApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
