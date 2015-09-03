@@ -16,8 +16,6 @@ class MyViewControllerWithTable: UIViewController, UITableViewDelegate, UITableV
         super.viewDidLoad()
         myTableView.delegate = self
         myTableView.dataSource = self
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

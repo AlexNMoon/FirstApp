@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myThirdLabel: UILabel!
     @IBOutlet weak var myThirdButton: UIButton!
     @IBOutlet weak var myFouthButton: UIButton!
+    @IBOutlet weak var myFifthButton: UIButton!
 
     
     @IBAction func myButtonTap(sender: AnyObject) {
@@ -47,6 +48,7 @@ class ViewController: UIViewController {
         myStepper.maximumValue = 32
         myThirdButton.setTitle("Table 1", forState: .Normal)
         myFouthButton.setTitle("Table 2", forState: .Normal)
+        myFifthButton.setTitle("Collection", forState: .Normal)
     }
     
     @IBAction func mySwitchTap(sender: AnyObject) {

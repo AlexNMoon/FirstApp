@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8B0F5921B9888C000D1B264 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */; };
+		A8B0F5941B988BD100D1B264 /* Full_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B0F5931B988BD100D1B264 /* Full_moon.png */; };
+		A8B0F5961B988BD800D1B264 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B0F5951B988BD800D1B264 /* sun.png */; };
+		A8B0F5981B988F7500D1B264 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0F5971B988F7500D1B264 /* MyCollectionViewCell.swift */; };
 		A8CBF5DA1B95D11400D77530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CBF5D91B95D11400D77530 /* AppDelegate.swift */; };
 		A8CBF5DC1B95D11400D77530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CBF5DB1B95D11400D77530 /* ViewController.swift */; };
 		A8CBF5DF1B95D11400D77530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CBF5DD1B95D11400D77530 /* Main.storyboard */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		A8B0F5931B988BD100D1B264 /* Full_moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Full_moon.png; sourceTree = "<group>"; };
+		A8B0F5951B988BD800D1B264 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		A8B0F5971B988F7500D1B264 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		A8CBF5D41B95D11400D77530 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CBF5D81B95D11400D77530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8CBF5D91B95D11400D77530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,11 +92,15 @@
 				A8CBF5D91B95D11400D77530 /* AppDelegate.swift */,
 				A8CBF5DB1B95D11400D77530 /* ViewController.swift */,
 				A8CBF5DD1B95D11400D77530 /* Main.storyboard */,
+				A8B0F5951B988BD800D1B264 /* sun.png */,
+				A8B0F5931B988BD100D1B264 /* Full_moon.png */,
 				A8CBF5E01B95D11400D77530 /* Images.xcassets */,
 				A8CBF5E21B95D11400D77530 /* LaunchScreen.xib */,
 				A8CBF5D71B95D11400D77530 /* Supporting Files */,
 				A8F2CF9B1B972094000EB02B /* MyTableViewController.swift */,
 				A8F2CFA11B974171000EB02B /* MyViewControllerWithTable.swift */,
+				A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */,
+				A8B0F5971B988F7500D1B264 /* MyCollectionViewCell.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -200,7 +212,9 @@
 			files = (
 				A8CBF5DF1B95D11400D77530 /* Main.storyboard in Resources */,
 				A8CBF5E41B95D11400D77530 /* LaunchScreen.xib in Resources */,
+				A8B0F5961B988BD800D1B264 /* sun.png in Resources */,
 				A8CBF5E11B95D11400D77530 /* Images.xcassets in Resources */,
+				A8B0F5941B988BD100D1B264 /* Full_moon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +234,9 @@
 			files = (
 				A8CBF5DC1B95D11400D77530 /* ViewController.swift in Sources */,
 				A8F2CF9C1B972094000EB02B /* MyTableViewController.swift in Sources */,
+				A8B0F5981B988F7500D1B264 /* MyCollectionViewCell.swift in Sources */,
 				A8CBF5DA1B95D11400D77530 /* AppDelegate.swift in Sources */,
+				A8B0F5921B9888C000D1B264 /* MyCollectionViewController.swift in Sources */,
 				A8F2CFA21B974171000EB02B /* MyViewControllerWithTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
