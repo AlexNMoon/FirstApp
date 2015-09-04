@@ -9,19 +9,14 @@
 import UIKit
 
 let reuseIdentifier = "Cell"
+let reuseBlueIdentifier = "Blue Cell"
 
 class MyCollectionViewController: UICollectionViewController, UICollectionViewDataSource, UICollectionViewDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
+        let nib = UINib(nibName: "MyBlueCollectionViewCell", bundle: nil)
+        self.collectionView!.registerNib(nib, forCellWithReuseIdentifier: reuseBlueIdentifier)
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,13 +36,21 @@ class MyCollectionViewController: UICollectionViewController, UICollectionViewDa
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! MyCollectionViewCell
+        
         let firstImage = UIImage(named: "sun.png")
         let secondImage = UIImage(named: "Full_moon.png")
-        cell.imageView?.image = firstImage
-        cell.lablel?.text = "\(indexPath.row + 1)"
-    
-        return cell
+        if (indexPath.row + 1) % 2 == 0 {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseBlueIdentifier, forIndexPath: indexPath) as! MyBlueCollectionViewCell
+            cell.myLabel?.text = "\(indexPath.row + 1)"
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! MyCollectionViewCell
+            cell.imageView?.image = firstImage
+            cell.label?.text = "\(indexPath.row + 1)"
+            return cell
+        }
+        
+        
     }
     
 }

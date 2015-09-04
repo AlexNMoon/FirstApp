@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89CFEA01B99D8C5008C8D22 /* MyBlueCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89CFE9F1B99D8C5008C8D22 /* MyBlueCollectionViewCell.xib */; };
+		A89CFEA21B99D8E9008C8D22 /* MyBlueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89CFEA11B99D8E9008C8D22 /* MyBlueCollectionViewCell.swift */; };
 		A8B0F5921B9888C000D1B264 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */; };
 		A8B0F5941B988BD100D1B264 /* Full_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B0F5931B988BD100D1B264 /* Full_moon.png */; };
 		A8B0F5961B988BD800D1B264 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B0F5951B988BD800D1B264 /* sun.png */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A89CFE9F1B99D8C5008C8D22 /* MyBlueCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBlueCollectionViewCell.xib; sourceTree = "<group>"; };
+		A89CFEA11B99D8E9008C8D22 /* MyBlueCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBlueCollectionViewCell.swift; sourceTree = "<group>"; };
 		A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		A8B0F5931B988BD100D1B264 /* Full_moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Full_moon.png; sourceTree = "<group>"; };
 		A8B0F5951B988BD800D1B264 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				A8F2CFA11B974171000EB02B /* MyViewControllerWithTable.swift */,
 				A8B0F5911B9888C000D1B264 /* MyCollectionViewController.swift */,
 				A8B0F5971B988F7500D1B264 /* MyCollectionViewCell.swift */,
+				A89CFE9F1B99D8C5008C8D22 /* MyBlueCollectionViewCell.xib */,
+				A89CFEA11B99D8E9008C8D22 /* MyBlueCollectionViewCell.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89CFEA01B99D8C5008C8D22 /* MyBlueCollectionViewCell.xib in Resources */,
 				A8CBF5DF1B95D11400D77530 /* Main.storyboard in Resources */,
 				A8CBF5E41B95D11400D77530 /* LaunchScreen.xib in Resources */,
 				A8B0F5961B988BD800D1B264 /* sun.png in Resources */,
@@ -236,6 +243,7 @@
 				A8F2CF9C1B972094000EB02B /* MyTableViewController.swift in Sources */,
 				A8B0F5981B988F7500D1B264 /* MyCollectionViewCell.swift in Sources */,
 				A8CBF5DA1B95D11400D77530 /* AppDelegate.swift in Sources */,
+				A89CFEA21B99D8E9008C8D22 /* MyBlueCollectionViewCell.swift in Sources */,
 				A8B0F5921B9888C000D1B264 /* MyCollectionViewController.swift in Sources */,
 				A8F2CFA21B974171000EB02B /* MyViewControllerWithTable.swift in Sources */,
 			);

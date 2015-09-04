@@ -290,7 +290,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="imageView" destination="WRj-wz-h9L" id="xVc-fZ-Fer"/>
-                                    <outlet property="lablel" destination="iXI-dw-pzc" id="wLe-oL-wCw"/>
+                                    <outlet property="label" destination="iXI-dw-pzc" id="si0-3e-I6c"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
